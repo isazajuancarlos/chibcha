@@ -1,0 +1,15 @@
+Chibcha
+Copyright 2026 Juan Carlos Isaza Arenas
+
+Este producto incluye software desarrollado por Juan Carlos Isaza Arenas.
+
+Los valores legislativos que distribuye esta librería (salarios mínimos,
+UVT, IPC, tasas de aportes, jornada y recargos) provienen de normas y
+publicaciones oficiales de la República de Colombia —decretos del Gobierno
+Nacional, resoluciones de la DIAN y boletines del DANE—, que son de dominio
+público conforme al artículo 41 de la Ley 23 de 1982. La compilación, la
+verificación y el código que las consulta sí son obra protegida.
+
+Esta librería NO es asesoría jurídica ni contable, y no sustituye la consulta
+de la norma vigente. Los valores marcados como no verificados no deben usarse
+en una liquidación sin cotejarlos con la fuente.
