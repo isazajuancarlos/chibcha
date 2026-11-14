@@ -1,0 +1,47 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "chibcha"
+version = "0.1.0"
+description = "Constantes legislativas colombianas con la norma que las fija: SMMLV, UVT, IPC, aportes, jornada y festivos."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{ name = "Juan Carlos Isaza", email = "isazajuancarlos@gmail.com" }]
+keywords = [
+  "colombia", "smmlv", "uvt", "ipc", "dane", "dian", "nomina", "pila",
+  "festivos", "dias-habiles", "ley-820", "arrendamiento", "seguridad-social",
+  "prestaciones", "arl", "jornada-laboral", "ley-2466",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Legal Industry",
+  "Intended Audience :: Financial and Insurance Industry",
+  "Intended Audience :: Developers",
+  "Natural Language :: Spanish",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Office/Business :: Financial :: Accounting",
+  "Typing :: Typed",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/isazajuancarlos/chibcha"
+Repository = "https://github.com/isazajuancarlos/chibcha"
+Issues = "https://github.com/isazajuancarlos/chibcha/issues"
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/chibcha"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
